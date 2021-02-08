@@ -18,7 +18,7 @@ module.exports = {
                     label: "Deployment",
                     items: [
                         "how-to-guides/deployment/deploy-your-project",
-                        "how-to-guides/deployment/configure-aws-credentials",
+                        "how-to-guides/deployment/configure-aws-credentials"
                     ]
                 },
                 {
@@ -40,7 +40,29 @@ module.exports = {
                     ]
                 },
                 "key-topics/webiny-cli",
-                "key-topics/cloud-infrastructure"
+                "key-topics/cloud-infrastructure",
+                {
+                    type: "category",
+                    label: "Headless CMS",
+                    items: [
+                        "key-topics/headless-cms/content-models-explained",
+                        {
+                            type: "category",
+                            label: "Lifecycle hooks",
+                            items: [
+                                "key-topics/headless-cms/lifecycle-hooks/content-model",
+                                "key-topics/headless-cms/lifecycle-hooks/content-entry"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            References: [
+                {
+                    type: "category",
+                    label: "Headless CMS",
+                    items: ["references/headless-cms/api/index"]
+                }
             ]
         },
         {
