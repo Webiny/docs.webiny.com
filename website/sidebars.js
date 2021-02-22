@@ -44,11 +44,17 @@ module.exports = {
                         "key-topics/deployment/environments"
                     ]
                 },
-                /*{
+                {
                     type: "category",
-                    label: "Page Builder",
-                    items: ["key-topics/page-builder/prerendering-pages"]
-                },*/
+                    label: "Serverless CMS",
+                    items: [
+                        {
+                            type: "category",
+                            label: "Page Builder",
+                            items: ["key-topics/serverless-cms/page-builder/responsive-mode"]
+                        }
+                    ]
+                },
                 /*"key-topics/webiny-cli",*/
                 {
                     type: "category",
